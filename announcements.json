@@ -1,0 +1,22 @@
+{
+  "announcements": [
+    {
+      "title": "Apply to Executive Board!",
+      "date": "20200408",
+      "panel_color": "primary"
+      "body": "<p>You can find the application form link <b><a href='https://forms.gle/NjgYKmW4xbKpqWSz9'>here</a></b>. Please complete by <b>Monday, April 13th</b>.</p>
+			<hr>
+			<p>Hello Chaps!</p>
+			<p>We, the Westlake High School Student Council, are officially inviting YOU to apply to the Executive Board! As an Executive Board member, you will have the opportunity to strengthen your teamwork and leadership experience, build more personal connections with the faculty and administration, and further your involvement in the Westlake community. </p>
+			<p>In addition to helping to plan and execute some of the big student events (Homecoming, Prom, etc.) at Westlake, Executive Board members are responsible for identifying and implementing ideas for positive change at Westlake. These changes can take place in many different forms and are a reflection of what you think would benefit the student body. From making lunchtime more entertaining to helping students focus on mental health, YOU are able to create events and projects that help students and the broader community!</p>
+			<p>If you are looking to help plan Homecoming and Prom, run pep-rally games, and create projects based on your peers’ needs, then Executive Board is for you! We are looking for a group of motivated Chaps with a diverse range of skills, talents, and interests. Although applications are highly competitive, we strongly recommend you apply if any aspect of this opportunity appeals to you.</p>
+			<p>Best regards,<br>Westlake StuCo</p>",
+    },
+    {
+      "title": "VolunteerNexus",
+      "date": "20200310",
+      "panel_color": "success"
+      "body": "<p>The VolunteerNexus website is live! We are working on expanding this platform so that students have greater and more organized access to volunteer opportunities. Check it out at <a href='https://volutneernexus.com'>volunteernexus.com</a>. Stay tuned for updates.</p>",
+    },
+  ]
+}
