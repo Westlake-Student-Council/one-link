@@ -82,7 +82,7 @@ $json_file = json_decode($get_file);
 						<center><h3 class="panel-title"><?php echo $obj->title; ?></h3></center>
 	  			</div>
 					<div class="panel-body">
-	 					<?php echo $obj->description; ?>
+	 					<?php echo $obj->body; ?>
 	 				</div>
 				</div>
       <?php endforeach; ?>
@@ -90,7 +90,7 @@ $json_file = json_decode($get_file);
     </div>
 	</div>
   <!-- /.container -->
-	
+
 	<hr>
 	<!-- Footer -->
 	<footer>
