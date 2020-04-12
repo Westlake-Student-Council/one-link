@@ -1,9 +1,35 @@
+<html>
+<head>
+  <?php require "head.php";?>
+</head>
 <form action="add.php" method="POST">
-    <input type="text" name="title" placeholder="title"/>
-    <input type="text" name="date" placeholder="date"/>
-    <input type="text" name="panel_color" placeholder="panel_color"/>
-    <input type="text" name="body" placeholder="body"/>
-    <input type="submit" name="add"/>
+  <label for="title">Title</label>
+  <br>
+  <input type="text" name="title" id="title" placeholder="title">
+
+  <br>
+
+  <label for="date">Date</label>
+  <br>
+  <input type="text" name="date" id="date" placeholder="date">
+
+  <br>
+
+  <label for="panel_color">default/primary/success/info/warning/danger</label>
+  <br>
+  <input type="text" value="default" name="panel_color" id="panel_color">
+
+  <br>
+
+  <label for="body">Announcement Text Body</label>
+  <br>
+  <textarea type="text" name="body" id="body" rows="30" cols="100">
+  </textarea>
+
+  <br>
+
+  <input type="submit" name="add">
+  <a href="read.php" type="btn">Go back</a>
 </form>
 <?php
 if (isset($_POST["add"])) {
@@ -16,3 +42,4 @@ if (isset($_POST["add"])) {
     header("Location: read.php");
 }
 ?>
+</html>
