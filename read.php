@@ -2,14 +2,28 @@
 $get_file = file_get_contents('announcements.json');
 $json_file = json_decode($get_file);
 ?>
-<a href="add.php">Add</a>
-<table align="center">
+
+<html>
+<head>
+  <?php require "head.php";?>
+</head>
+
+<body>
+
+
+
+<table class="table table-bordered" align="center">
+    <tr>
+      <th><a href="add.php">Add</a><th>
+      <th></th>
+      <th><a href="index.php">Go to main page</a><th>
+    </tr>
     <tr>
         <th>Title</th>
         <th>Date</th>
         <th>Panel Color</th>
         <th>Body</th>
-        <th></th>
+        <th>Actions</th>
     </tr>
     <tbody>
         <?php foreach ($json_file->announcements as $index => $obj): ?>
@@ -26,3 +40,5 @@ $json_file = json_decode($get_file);
         <?php endforeach; ?>
     </tbody>
 </table>
+</body>
+</html>
